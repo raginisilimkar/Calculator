@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/eb9ae28f73.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+
+    <div align="center" class="maindiv">
+        <div align="center">
+            <input type="text" name="input" class="input1"  id="storenum" disabled  >
+            <br>
+            <input  type="text" name="input" class="input" id="num" value="0" >
+        </div>
+        
+            <button class="btn btn1" onclick="clearall()">C</button>
+    <button class="btn btn1" onclick="input('%')">%</button>
+ <button class="btn btn1"  onclick="input('/')"><i class="fa-solid fa-divide"></i></button>
+<button  class="btn btn1" onclick="cancel()"> <i class="fa-solid fa-delete-left"></i></button>
+
+
+            
+    <button class="btn" onclick="input(7)">7</button>
+    <button class="btn" onclick="input(8)">8</button>
+    <button class="btn" onclick="input(9)">9</i></button>
+    <button class="btn"  onclick="input('*')">x</button>
+
+
+    <button class="btn" onclick="input(4)">4</button>
+    <button class="btn" onclick="input(5)">5</button>
+    <button class="btn" onclick="input(6)">6</button>
+    <button class="btn" onclick="input('-')">-</button>
+
+
+
+
+    <button class="btn" onclick="input(1)">1</button>
+    <button class="btn" onclick="input(2)">2</button>
+    <button class="btn" onclick="input(3)">3</button>
+    <button class="btn" onclick="input('+')">+</button>
+
+
+
+
+    <button class="btn" onclick="input(0)">0</button>
+    <button class="btn" onclick="input('.')">.</button>
+    <button class="btn" onclick="equalto()">=</button>
+    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#dem">
+        <i class="fa-solid fa-clock-rotate-left"></i></button>
+        <div class="offcanvas offcanvas-end" id="dem">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" ></button>
+            <div class="offcanvas-header offcanvas-close">
+                <h1 class="offcanvas-title">History</h1>
+            </div>
+<div class="history"></div>
+        </div>
+        <div class="container-fluid mt-3"></div>
+   
+</div>
+
+   
+       
+
+ 
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -15,4 +15,4 @@ A simple calculator web app built with HTML, CSS, and JavaScript.
 ## Getting Started
 Clone the repo:
 ```bash
-git clone https://github.com/yourusername/calculator.git
+git clone https://github.com/raginisilimkar/Calculator.git
